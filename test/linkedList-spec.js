@@ -218,6 +218,7 @@ describe('Linked List Generator', function() {
         'icann.org'
       ];
 
+
       var bookArr = [
         'Ready Player One',
         '1982',
@@ -244,12 +245,12 @@ describe('Linked List Generator', function() {
 
         // remove last node
         urlList.remove(2);
-
         // retrieve new node at position 2
+
         expect(urlList.get(2)).to.be.false;
         expect(urlList.getHead().value).to.equal('news.ycombinator.com');
         expect(urlList.getTail().value).to.equal('mozilla.org');
-
+        
         // bookList Tests
         //remove first node
         bookList.remove(0);
