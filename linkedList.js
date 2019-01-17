@@ -6,6 +6,7 @@
 function linkedListGenerator(){
     let head = null;
     let tail = null;
+    //hello
    
     const getHead = () =>{
         return head;
